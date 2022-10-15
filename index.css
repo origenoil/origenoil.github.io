@@ -1,8 +1,44 @@
-.text-compra{color:#97c93e !important}
+.text-compra{
+    color:#1ABC9C !important}
 
-#header img{width: 80px;}
+.btn-asesoria{
+    background-color:#1ABC9C;
+    color:white;
+}
 
-#footer{background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);}
+.btn-asesoria:hover{
+    background-color:#117864;
+}
 
-#footer a {color:azure}
+#header img{
+    width: 80px;}
 
+#main .carousel-inner img{
+    max-height: 70vh; 
+    object-fit:cover;
+    filter:grayscale(20%)}
+
+#carousel {
+    position:relative}
+
+#carousel .overlay{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+    text-align: right;
+}
+
+#footer{
+    background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);}
+
+#footer a {
+    color:azure}
